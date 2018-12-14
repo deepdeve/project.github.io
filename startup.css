@@ -1,0 +1,41 @@
+.bg {
+  /* The image used */
+  background-image: url("https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg");
+
+ 
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+.bg{
+	font-family: fantasy;
+	font-size: 4em;
+	text-align: center;
+	padding-top: 400px;
+	padding-bottom: 300px;
+	height: 200px;
+
+}
+
+.btn{
+	background-color: orange;
+	justify-content: center;
+	border-radius: 100px;
+}
+
+.btn:hover{
+	background-color: green;
+	cursor: crosshair;
+}
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+.btn-lg {
+  padding: 1rem 2rem; 
+}

@@ -1,0 +1,36 @@
+
+*{
+	text-align:right;
+}
+
+
+h2 +p {
+	color: red;
+	text-align: center;
+	border: 5px solid rgb(231,23,4);
+	cursor: wait;
+}
+
+p{
+ line-height: 20px;
+ font-style: italic;
+ font-weight: bold;
+ font-size: 80%;
+ font-family: Georgia;
+}
+
+body{
+	background-image: url(https://unsplash.com/photos/YjCgQbRBj3w);
+	background-size: cover;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+.webtext {
+	border: 5px solid rgb(21,23,3)
+}
+#div1{
+	background:rgba(12,342,234,0.5);
+}
